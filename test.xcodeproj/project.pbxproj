@@ -22,6 +22,7 @@
 		41DCB2FF182A7171003635A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DCB2DE182A7171003635A0 /* UIKit.framework */; };
 		41DCB307182A7171003635A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41DCB305182A7171003635A0 /* InfoPlist.strings */; };
 		41DCB309182A7171003635A0 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DCB308182A7171003635A0 /* testTests.m */; };
+		41DCB313182A7641003635A0 /* #recca1_カバー表.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41DCB312182A7641003635A0 /* #recca1_カバー表.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		41DCB304182A7171003635A0 /* testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testTests-Info.plist"; sourceTree = "<group>"; };
 		41DCB306182A7171003635A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		41DCB308182A7171003635A0 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		41DCB312182A7641003635A0 /* #recca1_カバー表.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "#recca1_カバー表.jpg"; path = "../../../../Google ドライブ/Google ドライブ/(一般コミック) [安西信行] 烈火の炎 全33巻/01/#recca1_カバー表.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		41DCB2E0182A7171003635A0 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				41DCB312182A7641003635A0 /* #recca1_カバー表.jpg */,
 				41DCB2E9182A7171003635A0 /* AppDelegate.h */,
 				41DCB2EA182A7171003635A0 /* AppDelegate.m */,
 				41DCB2EC182A7171003635A0 /* Main_iPhone.storyboard */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41DCB2F1182A7171003635A0 /* Main_iPad.storyboard in Resources */,
+				41DCB313182A7641003635A0 /* #recca1_カバー表.jpg in Resources */,
 				41DCB2F6182A7171003635A0 /* Images.xcassets in Resources */,
 				41DCB2EE182A7171003635A0 /* Main_iPhone.storyboard in Resources */,
 				41DCB2E5182A7171003635A0 /* InfoPlist.strings in Resources */,

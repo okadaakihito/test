@@ -1,23 +1,132 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4451" systemVersion="13A461" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="kNA-3B-5fM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3676"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--View Controller - 自分のプラン-->
+        <scene sceneID="DYj-tb-pyy">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                <viewController id="M3A-2d-azd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zn6-gu-ayh"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Wb-Mi-yrJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hnW-LQ-djN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.62194293478260865" green="0.35199863242343027" blue="0.48948934197409982" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="1" green="0.37705121501860162" blue="0.57171379277045953" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="自分のプラン" id="Kvo-fJ-2bl"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VOw-bA-XHv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="2028" y="-232"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="YE9-20-OK0">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="kNA-3B-5fM" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="BII-dJ-gjl">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="M3A-2d-azd" kind="relationship" relationship="viewControllers" id="bq8-qJ-rCD"/>
+                        <segue destination="c7q-jp-52e" kind="relationship" relationship="viewControllers" id="zxn-B7-Vch"/>
+                        <segue destination="cdi-C7-hkF" kind="relationship" relationship="viewControllers" id="N2y-V1-wHP"/>
+                        <segue destination="KEA-2x-rcb" kind="relationship" relationship="viewControllers" id="g4V-hl-iES"/>
+                        <segue destination="Tf5-iV-nWL" kind="relationship" relationship="viewControllers" id="Dbn-VX-Ivl"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KHA-aJ-ifC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1494" y="95"/>
+        </scene>
+        <!--View Controller - オススメ-->
+        <scene sceneID="Hkm-oV-S6S">
+            <objects>
+                <viewController id="c7q-jp-52e" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JZk-47-nSt"/>
+                        <viewControllerLayoutGuide type="bottom" id="vRC-ee-ao1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PV6-sI-bzJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.62194293478260865" green="0.14206806266632702" blue="0.31881130068178304" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="オススメ" id="5fJ-k0-ukG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SAv-fk-uHc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2028" y="280"/>
+        </scene>
+        <!--View Controller - 自分のプラン-->
+        <scene sceneID="Fo3-Cf-hab">
+            <objects>
+                <viewController id="KEA-2x-rcb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VFh-wK-PY5"/>
+                        <viewControllerLayoutGuide type="bottom" id="0gJ-Oi-Rzd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="k1w-od-XwF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.28675180796757138" green="0.27558279303156152" blue="0.62194293478260865" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="自分のプラン" id="7cW-Je-46U"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="58B-3L-JaW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1656" y="933"/>
+        </scene>
+        <!--View Controller - 設定-->
+        <scene sceneID="9aF-Rr-VPu">
+            <objects>
+                <viewController id="Tf5-iV-nWL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tKx-6c-vWm"/>
+                        <viewControllerLayoutGuide type="bottom" id="uhb-uP-v9y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i4X-qF-fiT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.29864242413168379" green="0.62194293478260865" blue="0.58245317063693491" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="設定" image="#recca1_カバー表.jpg" id="2Ph-nZ-4jh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ftp-oI-bkC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1591" y="857"/>
+        </scene>
+        <!--View Controller - プランの登録-->
+        <scene sceneID="Hio-V3-f7X">
+            <objects>
+                <viewController id="cdi-C7-hkF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VnD-zU-8SD"/>
+                        <viewControllerLayoutGuide type="bottom" id="fZy-Oh-iJG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jE3-eA-NBR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.62194293478260865" green="0.30718408318877166" blue="0.38081100116343175" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="プランの登録" id="m3K-yJ-B3W"/>
+                    <navigationItem key="navigationItem" id="UEZ-9B-PAO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TdZ-eN-QLJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1921" y="616"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="#recca1_カバー表.jpg" width="1044" height="1038"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
